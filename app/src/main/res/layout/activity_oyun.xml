@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Karışık meyve adının gösterildiği TextView -->
+    <TextView
+        android:id="@+id/tvKarisikMeyve"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Karışık Meyve"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="16dp" />
+
+    <!-- Kullanıcı tahmin girişi -->
+    <EditText
+        android:id="@+id/etTahmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tahmininizi yazın"
+        android:inputType="text"
+        android:padding="12dp" />
+
+    <!-- Kontrol Butonu -->
+    <Button
+        android:id="@+id/btnKontrol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kontrol Et"
+        android:padding="12dp"
+        android:layout_marginTop="8dp" />
+
+    <!-- Puan göstergesi -->
+    <TextView
+        android:id="@+id/tvPuan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Puan: 0"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
